@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/deanlynch-xyz/static/css/main.d1b05096.chunk.css",
-    "main.js": "/deanlynch-xyz/static/js/main.2d0012ad.chunk.js",
-    "main.js.map": "/deanlynch-xyz/static/js/main.2d0012ad.chunk.js.map",
-    "runtime-main.js": "/deanlynch-xyz/static/js/runtime-main.d0527e20.js",
-    "runtime-main.js.map": "/deanlynch-xyz/static/js/runtime-main.d0527e20.js.map",
-    "static/js/2.fa24f1aa.chunk.js": "/deanlynch-xyz/static/js/2.fa24f1aa.chunk.js",
-    "static/js/2.fa24f1aa.chunk.js.map": "/deanlynch-xyz/static/js/2.fa24f1aa.chunk.js.map",
-    "index.html": "/deanlynch-xyz/index.html",
-    "precache-manifest.bbffdfa65cbbf0ed9108b1d013edf219.js": "/deanlynch-xyz/precache-manifest.bbffdfa65cbbf0ed9108b1d013edf219.js",
-    "service-worker.js": "/deanlynch-xyz/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/deanlynch-xyz/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.fa24f1aa.chunk.js.LICENSE.txt": "/deanlynch-xyz/static/js/2.fa24f1aa.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/deanlynch-xyz/static/media/logo.5d5d9eef.svg"
+    "main.css": "/deanlynch.xyz/static/css/main.d1b05096.chunk.css",
+    "main.js": "/deanlynch.xyz/static/js/main.00b7ae11.chunk.js",
+    "main.js.map": "/deanlynch.xyz/static/js/main.00b7ae11.chunk.js.map",
+    "runtime-main.js": "/deanlynch.xyz/static/js/runtime-main.dd81ad5b.js",
+    "runtime-main.js.map": "/deanlynch.xyz/static/js/runtime-main.dd81ad5b.js.map",
+    "static/js/2.fa24f1aa.chunk.js": "/deanlynch.xyz/static/js/2.fa24f1aa.chunk.js",
+    "static/js/2.fa24f1aa.chunk.js.map": "/deanlynch.xyz/static/js/2.fa24f1aa.chunk.js.map",
+    "index.html": "/deanlynch.xyz/index.html",
+    "precache-manifest.2caa953bfd22bd60d25d3f36670903a7.js": "/deanlynch.xyz/precache-manifest.2caa953bfd22bd60d25d3f36670903a7.js",
+    "service-worker.js": "/deanlynch.xyz/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/deanlynch.xyz/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.fa24f1aa.chunk.js.LICENSE.txt": "/deanlynch.xyz/static/js/2.fa24f1aa.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/deanlynch.xyz/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0527e20.js",
+    "static/js/runtime-main.dd81ad5b.js",
     "static/js/2.fa24f1aa.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2d0012ad.chunk.js"
+    "static/js/main.00b7ae11.chunk.js"
   ]
 }
