@@ -1,6 +1,6 @@
 {
-  "name": "deanlynch.xyz",
-  "homepage": "https://lynchdean.github.io/deanlynch-xyz/",
+  "name": "deanlynch-xyz",
+  "homepage": "https://lynchdean.github.io/deanlynch-xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
