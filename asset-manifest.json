@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/deanlynch-xyz/static/css/main.d1b05096.chunk.css",
+    "main.js": "/deanlynch-xyz/static/js/main.e439f705.chunk.js",
+    "main.js.map": "/deanlynch-xyz/static/js/main.e439f705.chunk.js.map",
+    "runtime-main.js": "/deanlynch-xyz/static/js/runtime-main.3db55fd9.js",
+    "runtime-main.js.map": "/deanlynch-xyz/static/js/runtime-main.3db55fd9.js.map",
+    "static/js/2.b1a88581.chunk.js": "/deanlynch-xyz/static/js/2.b1a88581.chunk.js",
+    "static/js/2.b1a88581.chunk.js.map": "/deanlynch-xyz/static/js/2.b1a88581.chunk.js.map",
+    "index.html": "/deanlynch-xyz/index.html",
+    "precache-manifest.4910dc22142eea3ce10b8d494a7e11db.js": "/deanlynch-xyz/precache-manifest.4910dc22142eea3ce10b8d494a7e11db.js",
+    "service-worker.js": "/deanlynch-xyz/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/deanlynch-xyz/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b1a88581.chunk.js.LICENSE.txt": "/deanlynch-xyz/static/js/2.b1a88581.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/deanlynch-xyz/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3db55fd9.js",
+    "static/js/2.b1a88581.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.e439f705.chunk.js"
+  ]
+}
