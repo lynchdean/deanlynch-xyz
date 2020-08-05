@@ -2,8 +2,7 @@ import React from 'react';
 
 import Topbar from "./components/Topbar"
 import Jumbo from "./components/Jumbo";
-import ProjectCard from "./components/ProjectCard";
-import CardPaginator from "./components/CardPaginator";
+import CardSlider from "./components/CardSlider";
 
 function App() {
     return (
@@ -19,32 +18,7 @@ function App() {
                 "have any suitable positions!"}
             />
 
-            <CardPaginator/>
-
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
+            <CardSlider/>
 
         </div>
     );
