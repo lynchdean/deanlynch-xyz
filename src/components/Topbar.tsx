@@ -36,7 +36,8 @@ function Topbar() {
                             height='30'
                             className="d-inline-block align-top"
                             alt="LinkedIn logo"
-                        /></Nav.Link>
+                        />
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

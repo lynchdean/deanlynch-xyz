@@ -1,17 +1,20 @@
 import * as React from 'react';
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProjectCard from "./ProjectCard";
+import Card from "react-bootstrap/Card";
 
-function CardSlider() {
+type Props = {
+    cards: Card[]
+}
+
+function CardSlider({cards} : Props) {
     const settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
             {
@@ -43,42 +46,43 @@ function CardSlider() {
 
     return (
         <Slider {...settings}>
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
-            <ProjectCard
-                title="deanlynch-xyz"
-                link={"https://github.com/lynchdean/deanlynch-xyz"}
-                desc={"[WIP] Personal website build using React"}
-                tech={"React"}
-            />
+            {cards}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
+            {/*<ProjectCard*/}
+            {/*    title="deanlynch-xyz"*/}
+            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
+            {/*    desc={"[WIP] Personal website build using React"}*/}
+            {/*    tech={"React"}*/}
+            {/*/>*/}
         </Slider>
     );
 }

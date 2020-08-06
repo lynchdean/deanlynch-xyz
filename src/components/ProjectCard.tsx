@@ -1,18 +1,19 @@
 import * as React from 'react';
 import GitHubLogo from "./img/GithubLogo.png"
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 
-type Props = {
+interface Props  {
     title: string
     link: string
-    desc?: string
-    tech?: string
+    desc: string
+    tech: string
 }
 
 function ProjectCard({title, link, desc, tech}: Props) {
     return (
-        <Card>
+        <Card className="m-2">
             <div className="row no-gutters">
                 <div className="col-md-4 p-2 bg-dark d-flex flex-wrap align-items-center">
                     <div className="d-block m-auto mw-33">
@@ -27,7 +28,10 @@ function ProjectCard({title, link, desc, tech}: Props) {
                         <Card.Title>{title}</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">{tech}</Card.Subtitle>
                         <Card.Text>{desc}</Card.Text>
-                        <Card.Link href={link}>View on GitHub</Card.Link>
+                        <Button variant="primary" size="sm"
+                                href={link} block>
+                            View on GitHub
+                        </Button>
                     </Card.Body>
                 </div>
             </div>
