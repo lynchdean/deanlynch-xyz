@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react';
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -9,15 +9,53 @@ class CardSlider extends React.Component {
     render() {
         const settings = {
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 500,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            variableWidth: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            initialSlide: 0,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
 
         return (
             <Slider {...settings}>
+                <ProjectCard
+                    title="deanlynch-xyz"
+                    link={"https://github.com/lynchdean/deanlynch-xyz"}
+                    desc={"[WIP] Personal website build using React"}
+                    tech={"React"}
+                />
+                <ProjectCard
+                    title="deanlynch-xyz"
+                    link={"https://github.com/lynchdean/deanlynch-xyz"}
+                    desc={"[WIP] Personal website build using React"}
+                    tech={"React"}
+                />
                 <ProjectCard
                     title="deanlynch-xyz"
                     link={"https://github.com/lynchdean/deanlynch-xyz"}

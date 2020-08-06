@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import GitHubLogo from "./img/GithubLogo.png"
 import Card from "react-bootstrap/Card";
 
@@ -13,7 +13,7 @@ type Props = {
 function ProjectCard({title, link, desc, tech}: Props) {
     return (
         <Card>
-            <div className="row no-gutters ">
+            <div className="row no-gutters">
                 <div className="col-md-4 p-2 bg-dark d-flex flex-wrap align-items-center">
                     <div className="d-block m-auto mw-33">
                         <img src={GitHubLogo}

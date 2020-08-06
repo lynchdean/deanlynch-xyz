@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import DLLogo from './img/DLLogo.png'
 import GHLogo from './img/GithubLogo.png'
 import LILogo from './img/LinkedInLogo.png'
