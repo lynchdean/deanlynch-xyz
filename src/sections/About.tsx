@@ -1,16 +1,25 @@
 import * as React from 'react';
 import Jumbo from "../components/Jumbo";
+import AboutCard from "../components/AboutCard";
 
 function About() {
     let about = require('./data/about.json')
 
     return (
-        <Jumbo
-            heading={about.heading}
-            line1={about.line1}
-            line2={about.line2}
-            line3={about.line3}
-        />
+        <div>
+            <Jumbo
+                heading={about.jumbo.heading}
+                lines={about.jumbo.lines}
+                cards={
+                    about.jumbo.cards.map((card: any) => {
+                            return (
+                                <AboutCard title={card.title} img={require(card.image)}/>
+                            )
+                        }
+                    )
+                }
+            />
+        </div>
     );
 }
 

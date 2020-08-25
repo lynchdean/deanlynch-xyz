@@ -2,6 +2,7 @@ import * as React from 'react';
 import CardSlider from "../components/CardSlider";
 import ProjectCard from "../components/ProjectCard";
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
 
 function Projects() {
     let data = require("./data/projects.json")
@@ -17,12 +18,12 @@ function Projects() {
     });
 
     return (
-        <div className="container-fluid p-5" style={{background: "lightgrey"}}>
+        <Container>
             <h1 className="text-monospace">Projects: </h1>
             <CardSlider
                 cards={projects}
             />
-        </div>
+        </Container>
     )
 }
 
