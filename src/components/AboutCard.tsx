@@ -17,7 +17,7 @@ function AboutCard({title, img}: Props) {
                 <Col md={{span: 4, offset:4 }}><Card.Img variant="top" src={img}/></Col>
             </Row>
             <Card.Body>
-                <Card.Text><p className="lead">{title}</p></Card.Text>
+                <Card.Text className="lead">{title}</Card.Text>
             </Card.Body>
         </Card>
     )
