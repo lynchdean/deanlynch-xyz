@@ -17,12 +17,12 @@
     },
     { "title" : "tic-tac-toe",
       "link" : "https://github.com/lynchdean/tic-tac-toe",
-      "desc" : "Expanding upon the React tic-tac-toe tutorial",
+      "desc" : "Expanding upon the official React tic-tac-toe tutorial",
       "tech" : ["React"]
     },
     { "title" : "SuPy",
       "link" : "https://github.com/lynchdean/SuPy",
-      "desc" : "Selenium & request based autocomplete script",
+      "desc" : "Selenium & request based auto-checkout script/bot",
       "tech" : ["Python", "Selenium"]
     }
   ]

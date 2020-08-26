@@ -2,6 +2,7 @@ import * as React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './css/slick.css';
 import Card from "react-bootstrap/Card";
 
 type Props = {
@@ -18,7 +19,7 @@ function CardSlider({cards} : Props) {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1201,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
@@ -27,7 +28,7 @@ function CardSlider({cards} : Props) {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -35,7 +36,7 @@ function CardSlider({cards} : Props) {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -47,42 +48,6 @@ function CardSlider({cards} : Props) {
     return (
         <Slider {...settings}>
             {cards}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
-            {/*<ProjectCard*/}
-            {/*    title="deanlynch-xyz"*/}
-            {/*    link={"https://github.com/lynchdean/deanlynch-xyz"}*/}
-            {/*    desc={"[WIP] Personal website build using React"}*/}
-            {/*    tech={"React"}*/}
-            {/*/>*/}
         </Slider>
     );
 }
