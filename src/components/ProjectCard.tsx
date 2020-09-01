@@ -2,7 +2,7 @@ import * as React from 'react';
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
-
+import "./css/projectcard.css"
 
 interface Props {
     title: string
@@ -12,25 +12,27 @@ interface Props {
 }
 
 function ProjectCard({title, link, desc, tech}: Props) {
-
-
     return (
-        <Card className="m-2 h-100">
-            <Card.Body>
+        <Card id="project-card" className="m-2">
+            <Card.Header>
                 <Card.Title>{title}</Card.Title>
+            </Card.Header>
+            <Card.Body>
                 <Card.Text>{desc}</Card.Text>
-                <Card.Subtitle className="mb-2 text-muted">
-                    {tech.map((s: string, index: number) => {
-                        return (
-                            <Badge key={index} variant="secondary" className="p-2 m-1">{s}</Badge>
-                        )
-                    })
-                    }
-                </Card.Subtitle>
+            </Card.Body>
+            <Card.Footer >
+                {tech.map((s: string, index: number) => {
+                    return (
+                        <Badge key={index} variant="secondary" className="m-1">{s}</Badge>
+                    )
+                })
+                }
+            </Card.Footer>
+            <Card.Footer>
                 <Button variant="primary" size="sm" href={link} block>
                     View on GitHub
                 </Button>
-            </Card.Body>
+            </Card.Footer>
         </Card>
     )
 }
