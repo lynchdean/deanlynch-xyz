@@ -1,28 +1,35 @@
 {
   "files": {
-    "main.css": "./static/css/main.9e4d2579.chunk.css",
-    "main.js": "./static/js/main.4f94e6a0.chunk.js",
-    "main.js.map": "./static/js/main.4f94e6a0.chunk.js.map",
+    "main.css": "./static/css/main.9e9c3bfb.chunk.css",
+    "main.js": "./static/js/main.e9b49baf.chunk.js",
+    "main.js.map": "./static/js/main.e9b49baf.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.cb8d7235.js",
     "runtime-main.js.map": "./static/js/runtime-main.cb8d7235.js.map",
     "static/css/2.829b4f59.chunk.css": "./static/css/2.829b4f59.chunk.css",
-    "static/js/2.96cbc50d.chunk.js": "./static/js/2.96cbc50d.chunk.js",
-    "static/js/2.96cbc50d.chunk.js.map": "./static/js/2.96cbc50d.chunk.js.map",
+    "static/js/2.69e003ca.chunk.js": "./static/js/2.69e003ca.chunk.js",
+    "static/js/2.69e003ca.chunk.js.map": "./static/js/2.69e003ca.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.83d99b09ce2811c368788d4f7e6d0f9b.js": "./precache-manifest.83d99b09ce2811c368788d4f7e6d0f9b.js",
+    "precache-manifest.12bdd23e9105885c7c013f1dcd08c7d6.js": "./precache-manifest.12bdd23e9105885c7c013f1dcd08c7d6.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.829b4f59.chunk.css.map": "./static/css/2.829b4f59.chunk.css.map",
-    "static/css/main.9e4d2579.chunk.css.map": "./static/css/main.9e4d2579.chunk.css.map",
-    "static/js/2.96cbc50d.chunk.js.LICENSE.txt": "./static/js/2.96cbc50d.chunk.js.LICENSE.txt",
+    "static/css/main.9e9c3bfb.chunk.css.map": "./static/css/main.9e9c3bfb.chunk.css.map",
+    "static/js/2.69e003ca.chunk.js.LICENSE.txt": "./static/js/2.69e003ca.chunk.js.LICENSE.txt",
     "static/media/DLLogo.png": "./static/media/DLLogo.388d3df8.png",
-    "static/media/dcu-logo.png": "./static/media/dcu-logo.e1fe4e62.png",
+    "static/media/angular-logo.png": "./static/media/angular-logo.27b632f5.png",
+    "static/media/bash-logo.png": "./static/media/bash-logo.ed72f827.png",
+    "static/media/dcu-logo.png": "./static/media/dcu-logo.43c047f3.png",
+    "static/media/html-logo.png": "./static/media/html-logo.37b33f55.png",
+    "static/media/java-logo.png": "./static/media/java-logo.2c7a0278.png",
+    "static/media/linux-logo.png": "./static/media/linux-logo.7f6a2696.png",
+    "static/media/python-logo.png": "./static/media/python-logo.5459857c.png",
+    "static/media/react-logo.png": "./static/media/react-logo.69a6f5fe.png",
     "static/media/slick-theme.css": "./static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb8d7235.js",
     "static/css/2.829b4f59.chunk.css",
-    "static/js/2.96cbc50d.chunk.js",
-    "static/css/main.9e4d2579.chunk.css",
-    "static/js/main.4f94e6a0.chunk.js"
+    "static/js/2.69e003ca.chunk.js",
+    "static/css/main.9e9c3bfb.chunk.css",
+    "static/js/main.e9b49baf.chunk.js"
   ]
 }
