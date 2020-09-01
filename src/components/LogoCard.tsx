@@ -3,14 +3,14 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-import "./css/aboutCard.css"
+import "./css/logoCard.css"
 
 interface Props {
     title?: string,
     img?: string
 }
 
-function AboutCard({title, img}: Props) {
+function LogoCard({title, img}: Props) {
     return (
         <Card className="text-center border-0 mw-2 mh-22">
             <Row>
@@ -23,4 +23,4 @@ function AboutCard({title, img}: Props) {
     )
 }
 
-export default AboutCard
+export default LogoCard

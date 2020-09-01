@@ -3,10 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './css/slick.css';
-import Card from "react-bootstrap/Card";
 
 type Props = {
-    cards: Card[]
+    cards: JSX.Element[]
 }
 
 function CardSlider({cards} : Props) {

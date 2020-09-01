@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: transparent !important;
+    color: #FFF;
+}
+
+.jumbotron .card {
+    background-color: transparent !important;
+}

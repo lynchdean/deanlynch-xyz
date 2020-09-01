@@ -12,7 +12,7 @@ type Props = {
 
 function Jumbo({heading, lines, cards}: Props) {
     return (
-        <Jumbotron className="mb-0">
+        <Jumbotron>
             <Container>
                 <Row>
                     <Col sm={8}>
