@@ -20,16 +20,16 @@ function ProjectCard({title, link, desc, tech}: Props) {
             <Card.Body>
                 <Card.Text>{desc}</Card.Text>
             </Card.Body>
-            <Card.Footer>
+            <Card.Footer >
                 {tech.map((s: string, index: number) => {
                     return (
-                        <Badge pill key={index} variant="secondary" className="m-1">{s}</Badge>
+                        <Badge key={index} variant="secondary" className="m-1">{s}</Badge>
                     )
                 })
                 }
             </Card.Footer>
             <Card.Footer>
-                <Button className="mt-auto" variant="primary" size="sm" href={link} block>
+                <Button variant="primary" size="sm" href={link} block>
                     View on GitHub
                 </Button>
             </Card.Footer>

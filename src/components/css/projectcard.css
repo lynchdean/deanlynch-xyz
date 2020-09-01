@@ -1,3 +1,15 @@
 #project-card {
     height: 300px;
 }
+
+#project-card .card-header {
+    background-color: #FFFFFF;
+    border-radius: 10px !important;
+    border: none;
+}
+
+#project-card .card-footer {
+    background-color: #FFFFFF;
+    border-radius: 10px !important;
+    border: none;
+}
