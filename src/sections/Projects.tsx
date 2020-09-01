@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Container from "react-bootstrap/Container";
 import CardSlider from "../components/CardSlider";
 import ProjectCard from "../components/ProjectCard";
 
@@ -18,12 +17,12 @@ function Projects() {
     });
 
     return (
-        <Container>
-            <h1 className="text-monospace">Projects: </h1>
+        <div id="project-slider">
             <CardSlider
+                title="Projects: "
                 cards={projects}
             />
-        </Container>
+        </div>
     )
 }
 

@@ -3,12 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './css/slick.css';
+import {Card} from "react-bootstrap";
 
 type Props = {
+    title: string
     cards: JSX.Element[]
 }
 
-function CardSlider({cards} : Props) {
+function CardSlider({title, cards}: Props) {
     const settings = {
         dots: true,
         infinite: true,
@@ -18,7 +20,7 @@ function CardSlider({cards} : Props) {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1201,
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
@@ -27,7 +29,7 @@ function CardSlider({cards} : Props) {
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 770,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -35,7 +37,7 @@ function CardSlider({cards} : Props) {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -45,9 +47,15 @@ function CardSlider({cards} : Props) {
     };
 
     return (
-        <Slider {...settings}>
-            {cards}
-        </Slider>
+        <Card className="pb-5 mb-4">
+            <Card.Title className="text-monospace m-3">{title}</Card.Title>
+            <Card.Body className="px-5">
+                <Slider {...settings}>
+                    {cards}
+                </Slider>
+            </Card.Body>
+        </Card>
+
     );
 }
 
