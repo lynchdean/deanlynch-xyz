@@ -20,27 +20,36 @@ function CardSlider({title, cards}: Props) {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 2000,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: false,
                     dots: true
                 }
             },
             {
-                breakpoint: 770,
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    infinite: true
                 }
             }
         ]
