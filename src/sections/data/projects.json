@@ -13,7 +13,7 @@
     { "title" : "Open Freelance Hub",
       "link" : "https://github.com/lynchdean/Open-Freelance-Hub",
       "desc" : "A website for freelance work encorperating the Ethereum blockchain (Third Year Project)",
-      "tech" : ["Angular", "Etherium", "Solidity", "Web3.js"]
+      "tech" : ["Angular", "Solidity", "Web3js"]
     },
     { "title" : "tic-tac-toe",
       "link" : "https://github.com/lynchdean/tic-tac-toe",
