@@ -1,5 +1,5 @@
 #project-card {
-    height: 300px;
+    height: 260px;
 }
 
 #project-card .card-header {
@@ -8,7 +8,12 @@
     border: none;
 }
 
+#project-card .card-body {
+    padding-top: 0;
+}
+
 #project-card .card-footer {
+    padding-top: 0;
     background-color: #FFFFFF;
     border-radius: 10px !important;
     border: none;
