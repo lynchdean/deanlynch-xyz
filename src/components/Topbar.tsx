@@ -19,7 +19,7 @@ function Topbar() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
+                <Nav className="ml-auto float-right text-right pr-3">
                     <Nav.Link href="https://github.com/lynchdean">
                         <img
                             src={GHLogo}
