@@ -1,0 +1,41 @@
+body {
+    background-color: #2A9D8F !important;
+}
+
+.nav {
+    background-color: #2A9D8F !important;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+.badge {
+    background-color: #2a9d8f !important;
+}
+
+.btn-block {
+    background-color: #264653 !important;
+    border-color: #264653 !important;
+}
+
+#tech1-slider .card {
+    background-color: #e9c46a;
+    color: #FFFFFF;
+}
+
+#tech2-slider .card {
+    background-color: #f4a261;
+    color: #FFFFFF;
+}
+
+#project-slider .card {
+    background-color: #e76f51;
+    color: #FFFFFF;
+}
+
+#project-slider .card .card {
+    background-color: #FFFFFF;
+    color: #212529;
+    border: none;
+}

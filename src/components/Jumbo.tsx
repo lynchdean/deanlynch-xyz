@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import "./css/jumbo.css"
+
 type Props = {
     heading: string
     lines: string[]
@@ -12,7 +14,7 @@ type Props = {
 
 function Jumbo({heading, lines, cards}: Props) {
     return (
-        <Jumbotron className="mb-0">
+        <Jumbotron className="mb-4">
             <Container>
                 <Row>
                     <Col sm={8}>
