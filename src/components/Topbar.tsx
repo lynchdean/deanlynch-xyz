@@ -7,12 +7,12 @@ import Nav from 'react-bootstrap/Nav';
 
 function Topbar() {
     return (
-        <Navbar bg="dark" variant="dark" expand="sm">
+        <Navbar expand="sm" className="p-4">
             <Navbar.Brand href="#home">
                 <img
                     src={DLLogo}
-                    width='50'
-                    height='50'
+                    width='100'
+                    height='100'
                     className="d-inline-block align-top"
                     alt="DL icon"
                 />

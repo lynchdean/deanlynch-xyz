@@ -13,12 +13,12 @@ function App() {
         <div>
             <Topbar/>
             <Container>
-                <Alert variant="warning" className="text-center mt-3">
+                <About/>
+                <Alert variant="warning" className="text-center mb-4">
                     This site is a <b>work-in-progress.</b> If you're interested, you can see more{' '}
                     <Alert.Link href="https://github.com/lynchdean/deanlynch-xyz">on the GitHub repo.</Alert.Link>
                 </Alert>
 
-                <About/>
                 <TechExp/>
                 <Projects/>
 

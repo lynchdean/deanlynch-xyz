@@ -2,7 +2,7 @@ import * as React from 'react';
 import data from "./data/tech"
 import LogoCard from "../components/LogoCard";
 import CardSlider from "../components/CardSlider";
-import {Card} from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 
 function TechExp() {
     function getSlider(data: any) {
