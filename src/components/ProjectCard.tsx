@@ -1,8 +1,8 @@
 import * as React from 'react';
+import "./css/projectCard.css"
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
-import "./css/projectcard.css"
 
 interface Props {
     title: string

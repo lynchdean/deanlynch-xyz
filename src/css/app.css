@@ -1,9 +1,9 @@
 body {
-    background-color: #2A9D8F !important;
+    background-color: #264653 !important;
 }
 
 .nav {
-    background-color: #2A9D8F !important;
+    background-color: #264653 !important;
 }
 
 .card {
@@ -20,22 +20,21 @@ body {
 }
 
 #tech1-slider .card {
-    background-color: #e9c46a;
+    background-color: #E9C46A;
     color: #FFFFFF;
 }
 
 #tech2-slider .card {
-    background-color: #f4a261;
+    background-color: #EFB366;
+    color: #FFFFFF;
+}
+
+#work-exp {
+    background-color: #F4A261;
     color: #FFFFFF;
 }
 
 #project-slider .card {
-    background-color: #e76f51;
+    background-color: #EE8959;
     color: #FFFFFF;
-}
-
-#project-slider .card .card {
-    background-color: #FFFFFF;
-    color: #212529;
-    border: none;
 }

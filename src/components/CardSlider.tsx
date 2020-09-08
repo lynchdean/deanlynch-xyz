@@ -58,7 +58,7 @@ function CardSlider({title, cards}: Props) {
     return (
         <Card className="pb-5 mb-4">
             <Card.Title className="text-monospace m-3">{title}</Card.Title>
-            <Card.Body className="px-5">
+            <Card.Body className="px-5 pt-0">
                 <Slider {...settings}>
                     {cards}
                 </Slider>

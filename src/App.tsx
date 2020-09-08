@@ -7,6 +7,7 @@ import Alert from "react-bootstrap/Alert";
 import TechExp from "./sections/TechExp";
 import "./css/app.css"
 import Container from "react-bootstrap/Container";
+import WorkExp from "./sections/WorkExp";
 
 function App() {
     return (
@@ -14,13 +15,12 @@ function App() {
             <Topbar/>
             <Container>
                 <About/>
-
                 <Alert variant="warning" className="text-center mb-4">
                     This site is a <b>work-in-progress.</b> If you're interested, you can see more{' '}
                     <Alert.Link href="https://github.com/lynchdean/deanlynch-xyz">on the GitHub repo.</Alert.Link>
                 </Alert>
-
                 <TechExp/>
+                <WorkExp/>
                 <Projects/>
             </Container>
         </div>
