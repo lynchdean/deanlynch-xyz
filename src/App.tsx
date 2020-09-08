@@ -7,17 +7,12 @@ import Alert from "react-bootstrap/Alert";
 import TechExp from "./sections/TechExp";
 import "./css/app.css"
 import Container from "react-bootstrap/Container";
-import {motion} from "framer-motion";
 
 function App() {
     return (
         <div>
             <Topbar/>
             <Container>
-                <motion.div
-                    animate={{ scale: [0, 1] }}
-                    transition={{ duration: 1 }}
-                >
                 <About/>
 
                 <Alert variant="warning" className="text-center mb-4">
@@ -27,8 +22,6 @@ function App() {
 
                 <TechExp/>
                 <Projects/>
-                </motion.div>
-
             </Container>
         </div>
 
