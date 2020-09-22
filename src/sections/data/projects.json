@@ -1,29 +1,50 @@
 {
-  "projects" : [
-    { "title" : "deanlynch-xyz",
-      "link" : "https://github.com/lynchdean/deanlynch-xyz",
-      "desc" : "My personal website (You're currently on it)",
-      "tech" : ["React", "TypeScript"]
+  "projects": [
+    {
+      "title": "deanlynch-xyz",
+      "link": "https://github.com/lynchdean/deanlynch-xyz",
+      "desc": "My personal website (You're currently on it)",
+      "tech": [
+        "React",
+        "TypeScript"
+      ]
     },
-    { "title" : "PW-P2P",
-      "link" : "https://github.com/lynchdean/PW-P2P",
-      "desc" : "Password Manager with P2P Synchronization (Final Year Project)",
-      "tech" : ["Java", "JavaFX", "KeePass"]
+    {
+      "title": "PW-P2P",
+      "link": "https://github.com/lynchdean/PW-P2P",
+      "desc": "Password Manager with P2P Synchronization (Final Year Project)",
+      "tech": [
+        "Java",
+        "JavaFX",
+        "KeePass"
+      ]
     },
-    { "title" : "Open Freelance Hub",
-      "link" : "https://github.com/lynchdean/Open-Freelance-Hub",
-      "desc" : "A website for freelance work encorperating the Ethereum blockchain (Third Year Project)",
-      "tech" : ["Angular", "Solidity", "Web3js"]
+    {
+      "title": "Open Freelance Hub",
+      "link": "https://github.com/lynchdean/Open-Freelance-Hub",
+      "desc": "A website for freelance work encorperating the Ethereum blockchain (Third Year Project)",
+      "tech": [
+        "Angular",
+        "Solidity",
+        "Web3js"
+      ]
     },
-    { "title" : "tic-tac-toe",
-      "link" : "https://github.com/lynchdean/tic-tac-toe",
-      "desc" : "Expanding upon the official React tic-tac-toe tutorial",
-      "tech" : ["React"]
+    {
+      "title": "tic-tac-toe",
+      "link": "https://github.com/lynchdean/tic-tac-toe",
+      "desc": "Expanding upon the official React tic-tac-toe tutorial",
+      "tech": [
+        "React"
+      ]
     },
-    { "title" : "SuPy",
-      "link" : "https://github.com/lynchdean/SuPy",
-      "desc" : "Selenium & request based auto-checkout script/bot",
-      "tech" : ["Python", "Selenium"]
+    {
+      "title": "SuPy",
+      "link": "https://github.com/lynchdean/SuPy",
+      "desc": "Selenium & request based auto-checkout script/bot",
+      "tech": [
+        "Python",
+        "Selenium"
+      ]
     }
   ]
 }

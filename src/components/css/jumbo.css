@@ -1,9 +1,9 @@
 .jumbotron {
-    background-color: #264653 !important;
+    background-color: #2A9D8F !important;
     color: #FFFFFF;
     border-radius: 10px !important;
 }
 
 .jumbotron .card {
-    background-color: transparent !important;
+    color: #212529;
 }

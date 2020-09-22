@@ -1,8 +1,8 @@
 import * as React from 'react';
+import "./css/projectCard.css"
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
-import "./css/projectcard.css"
 
 interface Props {
     title: string
@@ -29,7 +29,7 @@ function ProjectCard({title, link, desc, tech}: Props) {
                 }
             </Card.Footer>
             <Card.Footer>
-                <Button variant="primary" size="sm" href={link} block>
+                <Button variant="outline-secondary" size="sm" href={link} block>
                     View on GitHub
                 </Button>
             </Card.Footer>
