@@ -18,15 +18,6 @@ function CardSlider({title, cards}: Props) {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
-        // appendDots: (dots: any) => (
-        //     <div
-        //         style={{
-        //             // backgroundColor: "#ddd",
-        //             // color: "#FFF",
-        //             borderRadius: "10px",
-        //             padding: "10px"
-        //         }}
-        //     />),
         responsive: [
             {
                 breakpoint: 2000,
