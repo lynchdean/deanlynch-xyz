@@ -14,6 +14,10 @@ body {
     background-color: #2a9d8f !important;
 }
 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    box-shadow: none !important;
+}
+
 .btn-block {
     /*background-color: #8F2A9D !important;*/
     /*border-color: #8F2A9D !important;*/

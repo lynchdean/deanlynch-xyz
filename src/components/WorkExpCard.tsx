@@ -34,13 +34,13 @@ function ContextAwareToggle({ eventKey, callback }: toggleProps) {
 
     return (
         <Button
-            type="button"
+            className="border-0"
             variant="outline-secondary"
             size="sm"
             onClick={decoratedOnClick}
             block
         >
-            {isCurrentEventKey ? 'Collapse Details' : 'Expand Details'}
+           {isCurrentEventKey ? 'Collapse Details' : 'Expand Details'}
         </Button>
     );
 }
@@ -60,11 +60,11 @@ function WorkExpCard({company, img, position, duration, details}: Props) {
                 <Accordion.Collapse eventKey="0">
                     <ListGroup className="list-group-flush">
                         {details.map((line, index) => {
-                            return <ListGroupItem key={index} className="lead">{line}</ListGroupItem>
+                            return <ListGroupItem key={index}>&bull; {line}</ListGroupItem>
                         })}
                     </ListGroup>
                 </Accordion.Collapse>
-                <Card.Footer>
+                <Card.Footer className="text-center">
                     <ContextAwareToggle eventKey="0"/>
                 </Card.Footer>
             </Accordion>
