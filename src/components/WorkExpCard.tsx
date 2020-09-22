@@ -54,13 +54,13 @@ function WorkExpCard({company, img, position, duration, details}: Props) {
                     <Card.Title className="my-auto">{company}</Card.Title>
                     <Image src={img} className="ml-auto" alt={company + " Logo"} width={75} roundedCircle/>
                 </Card.Header>
-                <Card.Body className="border-bottom">
+                <Card.Body>
                     <Card.Subtitle>{position} ({duration})</Card.Subtitle>
                 </Card.Body>
                 <Accordion.Collapse eventKey="0">
-                    <ListGroup className="list-group-flush">
+                    <ListGroup>
                         {details.map((line, index) => {
-                            return <ListGroupItem key={index}>&bull; {line}</ListGroupItem>
+                            return <ListGroupItem className="border-0" key={index}>&bull; {line}</ListGroupItem>
                         })}
                     </ListGroup>
                 </Accordion.Collapse>

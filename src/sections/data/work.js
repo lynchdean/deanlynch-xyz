@@ -17,7 +17,7 @@ const data = {
             company: "Life-Cycle Ltd.",
             image: require("../img/Life-Cycle-ltd.png"),
             position: "Warehouse Operative",
-            duration: "May - Aug (2015, 2016, 2017)",
+            duration: "Summer of 2015, 2016, 2017",
             details: [
                 "Inventory Management (In/Out)",
                 "Reorganised Warehouse for maximum efficiency",
