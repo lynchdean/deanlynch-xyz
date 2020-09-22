@@ -15,18 +15,23 @@ body {
 }
 
 .btn-block {
-    background-color: #8F2A9D !important;
     border-color: #8F2A9D !important;
+    color:  #8F2A9D !important;
 }
 
-#tech1-slider .card {
+#tech-slider {
     background-color: #E9C46A;
     color: #FFFFFF;
 }
 
-#tech2-slider .card {
-    background-color: #EFB366;
-    color: #FFFFFF;
+#tech-slider .card {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#tech-slider .card .card {
+    background-color: #FFF !important;
+    color: #212529 !important;
 }
 
 #work-exp {
@@ -37,4 +42,10 @@ body {
 #project-slider .card {
     background-color: #EE8959;
     color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+/* SLick carousel dot colour */
+.slick-dots li button:before {
+    color: #FFFFFF !important;
 }

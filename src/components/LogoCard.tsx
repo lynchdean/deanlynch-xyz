@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import Image from "react-bootstrap/Image";
 
 interface Props {
     title?: string,
@@ -10,13 +9,13 @@ interface Props {
 
 function LogoCard({title, img}: Props) {
     return (
-        <Card className="text-center border-0 mw-2 mh-22">
-            <Row>
-                <Col md={{span: 4, offset:4 }}><Card.Img variant="top" src={img}/></Col>
-            </Row>
-            <Card.Body>
-                <Card.Text className="lead">{title}</Card.Text>
+        <Card className="text-center mx-2 my-4">
+            <Card.Body className="mx-auto">
+                <Image src={img} alt={`${title} Logo`} height={75}/>
             </Card.Body>
+            <Card.Footer>
+                <Card.Text className="lead">{title}</Card.Text>
+            </Card.Footer>
         </Card>
     )
 }

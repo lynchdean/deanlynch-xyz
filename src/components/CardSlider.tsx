@@ -18,6 +18,15 @@ function CardSlider({title, cards}: Props) {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
+        // appendDots: (dots: any) => (
+        //     <div
+        //         style={{
+        //             // backgroundColor: "#ddd",
+        //             // color: "#FFF",
+        //             borderRadius: "10px",
+        //             padding: "10px"
+        //         }}
+        //     />),
         responsive: [
             {
                 breakpoint: 2000,
@@ -56,8 +65,8 @@ function CardSlider({title, cards}: Props) {
     };
 
     return (
-        <Card className="pb-5 mb-4">
-            <Card.Title className="text-monospace m-3">{title}</Card.Title>
+        <Card className="pb-4">
+            <Card.Title className="text-monospace text-center m-3">{title}</Card.Title>
             <Card.Body className="px-5 pt-0">
                 <Slider {...settings}>
                     {cards}

@@ -7,8 +7,8 @@ const data = {
     ],
     cards: [
         {title: "DCU Graduate", image: require("../img/dcu-logo.png")},
-        {title: "Dublin based", image: require("../img/dublin-outline.png")},
-        {title: "Available Immediately", image: require("../img/available-now.png")}
+        {title: "Dublin based", image: require("../img/dublin-crest.png")},
+        {title: "Available Immediately", image: require("../img/available.png")}
     ]
 }
 

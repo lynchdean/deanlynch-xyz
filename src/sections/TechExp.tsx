@@ -2,6 +2,7 @@ import * as React from 'react';
 import data from "./data/tech"
 import LogoCard from "../components/LogoCard";
 import CardSlider from "../components/CardSlider";
+import Card from "react-bootstrap/Card";
 
 function TechExp() {
     function getSlider(title: string, data: any) {
@@ -19,14 +20,10 @@ function TechExp() {
     }
 
     return (
-        <div>
-            <div id="tech1-slider">
+        <Card id="tech-slider" className=" p-0 mb-4">
                 {getSlider("Primary Technologies: ", data.primary)}
-            </div>
-            <div id="tech2-slider">
                 {getSlider("Secondary Technologies: ", data.secondary)}
-            </div>
-        </div>
+        </Card>
     )
 }
 

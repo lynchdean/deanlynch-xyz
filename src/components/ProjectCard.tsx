@@ -29,7 +29,7 @@ function ProjectCard({title, link, desc, tech}: Props) {
                 }
             </Card.Footer>
             <Card.Footer>
-                <Button variant="primary" size="sm" href={link} block>
+                <Button variant="outline-secondary" size="sm" href={link} block>
                     View on GitHub
                 </Button>
             </Card.Footer>
