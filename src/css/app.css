@@ -15,8 +15,9 @@ body {
 }
 
 .btn-block {
-    border-color: #8F2A9D !important;
-    color:  #8F2A9D !important;
+    /*background-color: #8F2A9D !important;*/
+    /*border-color: #8F2A9D !important;*/
+    /*color:  #FFFFFF !important;*/
 }
 
 #tech-slider {
