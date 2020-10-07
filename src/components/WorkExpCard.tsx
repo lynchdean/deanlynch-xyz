@@ -55,7 +55,10 @@ function WorkExpCard({company, img, position, duration, details}: Props) {
                     <Image src={img} className="ml-auto" alt={company + " Logo"} width={75} roundedCircle/>
                 </Card.Header>
                 <Card.Body>
-                    <Card.Subtitle>{position} ({duration})</Card.Subtitle>
+                    <Card.Subtitle>
+                        <p>{position}</p>
+                        <p className="text-muted mb-0">{duration}</p>
+                    </Card.Subtitle>
                 </Card.Body>
                 <Accordion.Collapse eventKey="0">
                     <ListGroup>
