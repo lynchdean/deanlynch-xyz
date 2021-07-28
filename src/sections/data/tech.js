@@ -3,10 +3,11 @@ const data = {
         {title: "Python", image: require("../img/python-logo.png")},
         {title: "Java", image: require("../img/java-logo.png")},
         {title: "JavaScript", image: require("../img/js-logo.png")},
+        {title: "React", image: require("../img/react-logo.png")},
+        {title: "TypeScript", image: require("../img/ts-logo.png")},
     ],
     secondary: [
-        {title: "TypeScript", image: require("../img/ts-logo.png")},
-        {title: "React", image: require("../img/react-logo.png")},
+        
         {title: "Angular", image: require("../img/angular-logo.png")},
         {title: "HTML", image: require("../img/html-logo.png")},
         {title: "CSS", image: require("../img/css-logo.png")},

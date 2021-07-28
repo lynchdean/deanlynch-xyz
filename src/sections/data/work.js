@@ -1,6 +1,19 @@
 const data = {
     jobs: [
         {
+            company: "ANAM Technologies",
+            image: require("../img/anam.png"),
+            position: "Software Test Engineer",
+            duration: "Mar 2021 - Present",
+            details: [
+                "Conducting automation testing using Jenkins for latest product candidates",
+                "Conducting performance/load testing using internal test tool for latest product candidates",
+                "Monitoring, troubleshooting and reporting of bugs and defects to Bugzilla",
+                "Carried out testing of AWS hosted implementation for troubleshooting and to assess viability",
+                " Optimisation of established testing processes and scripts",
+            ],
+        },
+        {
             company: "Bloomberg PolarLake",
             image: require("../img/BPL.png"),
             position: "Software Engineering Internship",
