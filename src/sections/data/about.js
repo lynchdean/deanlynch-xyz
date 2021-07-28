@@ -1,3 +1,6 @@
+import dcuLogo from "../img/dcu-logo.png"
+import dublinLogo from "../img/dublin.png"
+
 const data = {
     heading: "Hi, I'm Dean 👋",
     lines: [
@@ -11,8 +14,8 @@ const data = {
   
 
     cards: [
-        {title: "DCU Graduate", image: require("../img/dcu-logo.png")},
-        {title: "Dublin based", image: require("../img/dublin-crest.png")}
+        {title: "DCU Graduate", image: dcuLogo},
+        {title: "Dublin based", image: dublinLogo}
         
     ]
 }
