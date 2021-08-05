@@ -9,6 +9,7 @@ function TechExp() {
         return (
             <CardSlider
                 title={title}
+                cardsToShow={5}
                 cards={data.map((card: any, index: number) => {
                         return (
                             <LogoCard key={index} title={card.title} img={card.image}/>
