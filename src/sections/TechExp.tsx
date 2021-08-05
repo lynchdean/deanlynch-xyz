@@ -21,8 +21,8 @@ function TechExp() {
 
     return (
         <Card id="tech-slider" className=" p-0 mb-4">
-                {getSlider("Primary Technologies: ", data.primary)}
-                {getSlider("Secondary Technologies: ", data.secondary)}
+                {getSlider("Technologies: ", data.primary)}
+                {getSlider("", data.secondary)}
         </Card>
     )
 }

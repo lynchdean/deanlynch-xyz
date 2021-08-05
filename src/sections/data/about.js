@@ -15,8 +15,7 @@ const data = {
 
     cards: [
         {title: "DCU Graduate", image: dcuLogo},
-        {title: "Dublin based", image: dublinLogo}
-        
+        {title: "Dublin based", image: dublinLogo} 
     ]
 }
 

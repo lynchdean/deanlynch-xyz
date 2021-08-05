@@ -12,35 +12,34 @@ type Props = {
 
 function CardSlider({title, cards}: Props) {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         initialSlide: 0,
         responsive: [
             {
                 breakpoint: 2000,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    infinite: false,
-                    dots: true
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                    infinite: true,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
                     infinite: true
                 }
             },
             {
                 breakpoint: 990,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                     infinite: true
                 }
             },
@@ -55,10 +54,15 @@ function CardSlider({title, cards}: Props) {
         ]
     };
 
+    let cardTitle;
+    if (title) {
+        cardTitle = <Card.Title className="text-monospace text-center m-3">{title}</Card.Title>
+    }
+
     return (
-        <Card className="pb-4">
-            <Card.Title className="text-monospace text-center m-3">{title}</Card.Title>
-            <Card.Body className="px-5 pt-0">
+        <Card>
+            {cardTitle}
+            <Card.Body className="px-5 pt-0 pb-4">
                 <Slider {...settings}>
                     {cards}
                 </Slider>
