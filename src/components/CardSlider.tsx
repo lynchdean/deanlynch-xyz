@@ -16,17 +16,19 @@ function CardSlider({title, cardsToShow, cards}: Props) {
         cardsToShow = 1
     }
 
+    let br = cardsToShow
     let breaks = []
-
-    for (var i = 0; i < 3; i++) {
-        if (cardsToShow < 1) {
+    for (var i = 0; i < 2; i++) {
+        if (br < 1) {
             breaks.push(1)
         }
         else {
-            breaks.push(cardsToShow)
-            cardsToShow--
+            br--
+            breaks.push(br)   
         }
     }
+    console.log(breaks)
+    console.log(cardsToShow)
 
     const settings = {
         dots: false,
@@ -39,24 +41,24 @@ function CardSlider({title, cardsToShow, cards}: Props) {
             {
                 breakpoint: 2000,
                 settings: {
-                    slidesToShow: breaks[0],
-                    slidesToScroll: breaks[0],
+                    slidesToShow: cardsToShow,
+                    slidesToScroll: cardsToShow,
                     infinite: true,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: breaks[1],
-                    slidesToScroll: breaks[1],
+                    slidesToShow: breaks[0],
+                    slidesToScroll: breaks[0],
                     infinite: true
                 }
             },
             {
                 breakpoint: 990,
                 settings: {
-                    slidesToShow: breaks[2],
-                    slidesToScroll: breaks[2],
+                    slidesToShow: breaks[1],
+                    slidesToScroll: breaks[1],
                     infinite: true
                 }
             },
