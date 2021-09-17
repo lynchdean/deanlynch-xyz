@@ -6,9 +6,9 @@ import data from "./data/about";
 
 function About() {
   return (
-    <div className="bg-primary mb-4">
-      <div className="container py-4">
-        <div className="row m-4">
+    <div className="bg-primary mb-5">
+      <div className="container p-4">
+        <div className="row m-4 pb-4">
           <div className="col-lg-8">
             <div className="text-light">
               <h1 className="display-4 pb-4">{data.heading}</h1>
