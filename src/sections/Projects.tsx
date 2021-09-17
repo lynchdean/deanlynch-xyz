@@ -23,6 +23,7 @@ function Projects() {
         //         cards={projects}
         //     />
         // </div>
+        <div></div>
     )
 }
 
