@@ -16,7 +16,7 @@ function WorkExp() {
             {data.jobs.map((job: any, index: number) => {
               return (
                 <a
-                  className={`item-width list-group-item list-group-item-action rounded-circle m-1 p-1 ${
+                  className={`item-width list-group-item list-group-item-action rounded-circle mx-auto m-1 p-1 ${
                     index === 0 ? "active" : ""
                   }`}
                   id={`list-${index}-list`}
