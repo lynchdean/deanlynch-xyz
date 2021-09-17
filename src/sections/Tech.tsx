@@ -2,7 +2,7 @@ import * as React from "react";
 import TechInfo from "../components/TechInfo";
 import data from "./data/tech";
 
-function TechExp() {
+function Tech() {
   return (
     <div className="container pt-5 pb-4 text-light">
       <h2 className="pb-2 mb-4 border-bottom">Technologies:</h2>
@@ -21,4 +21,4 @@ function TechExp() {
   );
 }
 
-export default TechExp;
+export default Tech;

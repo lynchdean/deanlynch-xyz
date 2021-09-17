@@ -4,9 +4,9 @@ import Image from "react-bootstrap/Image";
 import "./css/workExp.css";
 import data from "./data/work";
 
-import JobInfo from "../components/JobInfo";
+import JobInfo from "../components/JobsInfo";
 
-function WorkExp() {
+function Work() {
   return (
     <div className="container py-5 text-light">
       <h2 className="pb-2 mb-4 border-bottom">Work Experience:</h2>
@@ -67,4 +67,4 @@ function WorkExp() {
   );
 }
 
-export default WorkExp;
+export default Work;

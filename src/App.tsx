@@ -1,28 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import Topbar from "./components/Topbar"
+import Topbar from "./components/Topbar";
 import About from "./sections/About";
+import Tech from "./sections/Tech";
+import Work from "./sections/Work";
 // import Projects from "./sections/Projects";
-import TechExp from "./sections/TechExp";
-import "./css/app.css"
-import Container from "react-bootstrap/Container";
-import WorkExpV2 from './sections/WorkExp';
+import "./css/app.css";
 
 function App() {
-    return (
-        <div>
-            <Topbar/>
-            
-                <About/>
-                <Container>
-                <TechExp/>
-                <WorkExpV2/>
-                {/* <Projects/> */}
-                
-            </Container>
-        </div>
-
-    );
+  return (
+    <div>
+      <Topbar />
+      <About />
+      <Tech />
+      <Work />
+      {/* <Projects/> */}
+    </div>
+  );
 }
 
 export default App;
