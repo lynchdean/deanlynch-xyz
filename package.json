@@ -12,6 +12,7 @@
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "bootstrap": "^4.5.1",
+    "bootstrap-icons": "^1.5.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",

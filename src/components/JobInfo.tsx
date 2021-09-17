@@ -7,11 +7,11 @@ interface Props {
   details: string[];
 }
 
-function WorkExpInfo({ position, company, duration,  details }: Props) {
+function JobInfo({ position, company, duration,  details }: Props) {
   return (
     <div>
       <div className="row">
-        <div className="col-md-9 text-light">
+        <div className="col-md-9">
           <h4 className="mr-auto">
             {position}
             <span className="text-muted"> @ {company}</span>
@@ -31,4 +31,4 @@ function WorkExpInfo({ position, company, duration,  details }: Props) {
   );
 }
 
-export default WorkExpInfo;
+export default JobInfo;

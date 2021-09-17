@@ -1,15 +1,15 @@
 import * as React from "react";
 import Image from "react-bootstrap/Image";
 
-import "./css/workExp.css"
+import "./css/workExp.css";
 import data from "./data/work";
 
-import WorkExpInfo from "../components/WorkExpInfo";
+import JobInfo from "../components/JobInfo";
 
 function WorkExp() {
   return (
-    <div className="container">
-      <h3 id="title">Work Experience:</h3>
+    <div className="container py-5 text-light">
+      <h2 className="pb-2 mb-4 border-bottom">Work Experience:</h2>
       <div className="row">
         <div className="col-sm-2">
           <div className="list-group" id="list-tab" role="tablist">
@@ -51,7 +51,7 @@ function WorkExp() {
                   aria-labelledby={`list-${index}-list`}
                   key={index}
                 >
-                  <WorkExpInfo
+                  <JobInfo
                     position={job.position}
                     company={job.company}
                     duration={job.duration}
