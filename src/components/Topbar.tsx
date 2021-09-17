@@ -1,6 +1,6 @@
 import * as React from "react";
 import DLLogo from "./img/DLLogo.png";
-import GHLogo from "./img/GithubLogo.png";
+// import GHLogo from "./img/GithubLogo.png";
 import LILogo from "./img/LinkedInLogo.png";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -16,22 +16,16 @@ function Topbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto float-right text-right pr-3">
           <Nav.Link href="https://github.com/lynchdean">
-            <img
-              src={GHLogo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="Github Logo"
-            />
+            <button type="button" className="btn btn-light text-primary rounded-pill">
+              <i className="bi bi-github mr-2"></i>
+              GitHub
+            </button>
           </Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/deanlynch97/">
-            <img
-              src={LILogo}
-              width="35"
-              height="30"
-              className="d-inline-block align-top"
-              alt="LinkedIn logo"
-            />
+          <button type="button" className="btn btn-light text-primary rounded-pill">
+              <i className="bi bi-linkedin mr-2"></i>
+              LinkedIn
+            </button>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

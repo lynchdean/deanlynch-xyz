@@ -4,7 +4,7 @@ import data from "./data/tech";
 
 function Tech() {
   return (
-    <div className="container pt-5 pb-4 text-light">
+    <div className="container py-4 text-light">
       <h2 className="pb-2 mb-4 border-bottom">Technologies:</h2>
       <div className="row">
         {data.tech.map((category: any, index: number) => {

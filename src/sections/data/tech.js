@@ -13,12 +13,12 @@ const data = {
     {
       title: "VC & CI/CD",
       items: ["Git", "Jira", "Jenkins", "Github Actions"],
-      icon:"bi-share"
+      icon:"bi-diagram-3"
     },
     {
       title: "Other",
       items: ["SQL", "Bash", "Linux", "Windows", "HTML/CSS"],
-      icon:"bi-puzzle"
+      icon:"bi-braces"
     },
   ],
 };

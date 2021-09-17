@@ -7,7 +7,7 @@ import data from "./data/about";
 function About() {
   return (
     <div className="bg-primary">
-      <div className="container p-4">
+      <div className="container p-4 mb-4">
         <div className="row m-4 pb-4">
           <div className="col-lg-8">
             <div className="text-light">

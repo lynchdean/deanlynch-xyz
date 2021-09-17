@@ -8,8 +8,8 @@ import JobInfo from "../components/JobsInfo";
 
 function Work() {
   return (
-    <div className="container py-5 text-light">
-      <h2 className="pb-2 mb-4 border-bottom">Work Experience:</h2>
+    <div className="container py-4 text-light">
+      <h2 className="pb-2 mb-4  border-bottom">Work Experience:</h2>
       <div className="row">
         <div className="col-sm-2">
           <div className="list-group" id="list-tab" role="tablist">
