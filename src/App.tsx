@@ -6,17 +6,21 @@ import Projects from "./sections/Projects";
 import TechExp from "./sections/TechExp";
 import "./css/app.css"
 import Container from "react-bootstrap/Container";
-import WorkExp from "./sections/WorkExp";
+import WorkExpV2 from './sections/WorkExp';
+import TechExpV2 from './sections/TechExpV2';
 
 function App() {
     return (
         <div>
             <Topbar/>
-            <Container>
+            
                 <About/>
-                <TechExp/>
-                <WorkExp/>
-                <Projects/>
+                <Container>
+                {/* <TechExp/> */}
+                <TechExpV2/>
+                <WorkExpV2/>
+                {/* <Projects/> */}
+                
             </Container>
         </div>
 

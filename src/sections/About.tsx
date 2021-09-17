@@ -1,24 +1,37 @@
-import * as React from 'react';
-import Jumbo from "../components/Jumbo";
-import LogoCard from "../components/LogoCard";
-import data from "./data/about"
+import * as React from "react";
+import Image from "react-bootstrap/Image";
+
+import DLLogo from "../components/img/DLLogo.png";
+import data from "./data/about";
 
 function About() {
-
-    return (
-        <div>
-            <Jumbo
-                heading={data.heading}
-                lines={data.lines}
-                cards={data.cards.map((card: any) => {
-                        return (
-                            <LogoCard title={card.title} img={card.image}/>
-                        )
-                    }
-                )}
+  return (
+    <div className="bg-primary mb-4">
+      <div className="container py-4">
+        <div className="row m-4">
+          <div className="col-lg-8">
+            <div className="text-light">
+              <h1 className="display-4 pb-4">{data.heading}</h1>
+              {data.lines.map((line, index) => {
+                return (
+                  <p key={index} className="lead">
+                    {line}
+                  </p>
+                );
+              })}
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <Image
+              src={DLLogo}
+              className="img-fluid my-auto"
+              alt={"DL Logo"}
             />
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default About;
