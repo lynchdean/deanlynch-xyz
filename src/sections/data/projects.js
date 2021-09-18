@@ -1,4 +1,4 @@
-{
+const data = {
   "projects": [
     {
       "title": "deanlynch-xyz",
@@ -85,3 +85,5 @@
     }
   ]
 }
+
+export default data;

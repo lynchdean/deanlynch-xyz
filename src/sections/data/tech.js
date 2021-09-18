@@ -12,7 +12,7 @@ const data = {
     },
     {
       title: "VC & CI/CD",
-      items: ["Git", "Jira", "Jenkins", "Github Actions"],
+      items: ["Git", "Docker", "Jira", "Jenkins", "Github Actions"],
       icon:"bi-diagram-3"
     },
     {

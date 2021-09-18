@@ -1,7 +1,4 @@
 import * as React from "react";
-import DLLogo from "./img/DLLogo.png";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 
 function Topbar() {
   return (

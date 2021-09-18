@@ -4,7 +4,7 @@ import Topbar from "./components/Topbar";
 import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Work from "./sections/Work";
-// import Projects from "./sections/Projects";
+import Projects from "./sections/Projects";
 import "./css/app.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <About />
       <Tech />
       <Work />
-      {/* <Projects/> */}
+      <Projects/>
     </div>
   );
 }
