@@ -13,6 +13,7 @@ function Tech() {
               title={category.title}
               items={category.items}
               icon={category.icon}
+              key={index}
             />
           );
         })}

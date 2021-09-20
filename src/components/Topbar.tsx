@@ -9,16 +9,14 @@ function Topbar() {
           className="btn btn-primary btn-lg rounded-pill"
           role="button"
         >
-          <i className="bi bi-github mr-2"></i>
-          GitHub
+          <i className="bi bi-github mr-2"/> GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/deanlynch97/"
           className="btn btn-primary btn-lg rounded-pill"
           role="button"
         >
-          <i className="bi bi-linkedin mr-2"></i>
-          LinkedIn
+          <i className="bi bi-linkedin mr-2"/> LinkedIn
         </a>
       </form>
     </nav>

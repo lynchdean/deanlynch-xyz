@@ -10,10 +10,10 @@ import "./css/app.css";
 function App() {
   return (
     <div>
-      <Topbar />
-      <About />
-      <Tech />
-      <Work />
+      <Topbar/>
+      <About/>
+      <Tech/>
+      <Work/>
       <Projects/>
     </div>
   );

@@ -11,7 +11,7 @@ function Projects() {
         {data.projects.map((project, index) => {
           return (
             <li className="list-group-item bg-transparent" key={index}>
-              <ProjectInfo title={project.title} desc={project.desc} tech={project.tech} link={project.link} />
+              <ProjectInfo title={project.title} desc={project.desc} tech={project.tech} link={project.link}/>
             </li>
           );
         })}

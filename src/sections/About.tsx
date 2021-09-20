@@ -1,5 +1,4 @@
 import * as React from "react";
-import Image from "react-bootstrap/Image";
 
 import DLLogo from "../components/img/DLLogo.png";
 import data from "./data/about";
@@ -22,7 +21,7 @@ function About() {
             </div>
           </div>
           <div className="col-lg-4">
-            <Image
+            <img
               src={DLLogo}
               className="img-fluid my-auto"
               alt={"DL Logo"}

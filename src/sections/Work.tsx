@@ -1,5 +1,4 @@
 import * as React from "react";
-import Image from "react-bootstrap/Image";
 
 import "./css/workExp.css";
 import data from "./data/work";
@@ -20,17 +19,16 @@ function Work() {
                     index === 0 ? "active" : ""
                   }`}
                   id={`list-${index}-list`}
-                  data-toggle="list"
+                  data-bs-toggle="list"
                   href={`#list-${index}`}
                   role="tab"
                   aria-controls={job.company}
                   key={index}
                 >
-                  <Image
+                  <img
                     src={job.image}
-                    className="img-fluid d-block mx-auto"
+                    className="img-fluid rounded-circle d-block mx-auto"
                     alt={job.company + " Logo"}
-                    roundedCircle
                   />
                 </a>
               );

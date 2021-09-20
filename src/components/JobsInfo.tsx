@@ -7,7 +7,7 @@ interface Props {
   details: string[];
 }
 
-function JobInfo({ position, company, duration,  details }: Props) {
+function JobInfo({position, company, duration, details}: Props) {
   return (
     <div>
       <div className="row">
@@ -16,13 +16,13 @@ function JobInfo({ position, company, duration,  details }: Props) {
             {position}
             <span className="text-muted"> @ {company}</span>
           </h4>
-          <p className="lead"> {duration}</p>
+          <p className="lead text-muted"> {duration}</p>
         </div>
       </div>
 
-      <ul className="list-group list-group-flush text-light">
+      <ul className="list-group list-group-flush">
         {details.map((line: any, index: number) => (
-          <li className="list-group-item bg-transparent pl-0" key={index}>
+          <li className="list-group-item text-light bg-transparent pl-0" key={index}>
             {line}
           </li>
         ))}
