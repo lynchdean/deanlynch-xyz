@@ -3,7 +3,7 @@ const data = {
     {
       "title": "deanlynch-xyz",
       "link": "https://github.com/lynchdean/deanlynch-xyz",
-      "desc": "My personal website (You're currently on it)",
+      "desc": "My personal website (You're on it)",
       "tech": [
         "React",
         "TypeScript"
@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Ben and Jerry's Deals",
       "link": "https://github.com/lynchdean/BenAndJerrys_Promos",
-      "desc": "Simple web scraper and page to let my girlfriend check when Ben and Jerry's is on offer",
+      "desc": "Web scraper and front-end page to let my girlfriend check when Ben and Jerry's is on offer",
       "tech": [
         "Python",
         "Flask",
