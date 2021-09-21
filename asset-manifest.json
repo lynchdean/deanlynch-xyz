@@ -1,37 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.98da0a93.chunk.css",
-    "main.js": "./static/js/main.96c707b0.chunk.js",
-    "main.js.map": "./static/js/main.96c707b0.chunk.js.map",
+    "main.css": "./static/css/main.d7414529.chunk.css",
+    "main.js": "./static/js/main.115a3c1a.chunk.js",
+    "main.js.map": "./static/js/main.115a3c1a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.af4c5a34.js",
     "runtime-main.js.map": "./static/js/runtime-main.af4c5a34.js.map",
-    "static/css/2.0169a7ae.chunk.css": "./static/css/2.0169a7ae.chunk.css",
-    "static/js/2.4f6c3036.chunk.js": "./static/js/2.4f6c3036.chunk.js",
-    "static/js/2.4f6c3036.chunk.js.map": "./static/js/2.4f6c3036.chunk.js.map",
+    "static/css/2.c1256375.chunk.css": "./static/css/2.c1256375.chunk.css",
+    "static/js/2.6b2e6de8.chunk.js": "./static/js/2.6b2e6de8.chunk.js",
+    "static/js/2.6b2e6de8.chunk.js.map": "./static/js/2.6b2e6de8.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.0169a7ae.chunk.css.map": "./static/css/2.0169a7ae.chunk.css.map",
-    "static/css/main.98da0a93.chunk.css.map": "./static/css/main.98da0a93.chunk.css.map",
-    "static/js/2.4f6c3036.chunk.js.LICENSE.txt": "./static/js/2.4f6c3036.chunk.js.LICENSE.txt",
+    "static/css/2.c1256375.chunk.css.map": "./static/css/2.c1256375.chunk.css.map",
+    "static/css/main.d7414529.chunk.css.map": "./static/css/main.d7414529.chunk.css.map",
+    "static/js/2.6b2e6de8.chunk.js.LICENSE.txt": "./static/js/2.6b2e6de8.chunk.js.LICENSE.txt",
     "static/media/DLLogo.5c410046.png": "./static/media/DLLogo.5c410046.png",
-    "static/media/angular-logo.25df3f32.png": "./static/media/angular-logo.25df3f32.png",
-    "static/media/bash-logo.200e2588.png": "./static/media/bash-logo.200e2588.png",
-    "static/media/css-logo.ceb468ea.png": "./static/media/css-logo.ceb468ea.png",
-    "static/media/dcu-logo.7fbab337.png": "./static/media/dcu-logo.7fbab337.png",
-    "static/media/dublin.cf1892d0.png": "./static/media/dublin.cf1892d0.png",
-    "static/media/html-logo.ad382e3b.png": "./static/media/html-logo.ad382e3b.png",
-    "static/media/java-logo.84e21b5f.png": "./static/media/java-logo.84e21b5f.png",
-    "static/media/js-logo.3dac5a7e.png": "./static/media/js-logo.3dac5a7e.png",
-    "static/media/linux-logo.c88ff5f6.png": "./static/media/linux-logo.c88ff5f6.png",
-    "static/media/python-logo.c9946c94.png": "./static/media/python-logo.c9946c94.png",
-    "static/media/react-logo.83457103.png": "./static/media/react-logo.83457103.png",
-    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf",
-    "static/media/windows-logo.45c0b46b.png": "./static/media/windows-logo.45c0b46b.png"
+    "static/media/anam-logo.94969f37.png": "./static/media/anam-logo.94969f37.png"
   },
   "entrypoints": [
     "static/js/runtime-main.af4c5a34.js",
-    "static/css/2.0169a7ae.chunk.css",
-    "static/js/2.4f6c3036.chunk.js",
-    "static/css/main.98da0a93.chunk.css",
-    "static/js/main.96c707b0.chunk.js"
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.6b2e6de8.chunk.js",
+    "static/css/main.d7414529.chunk.css",
+    "static/js/main.115a3c1a.chunk.js"
   ]
 }
