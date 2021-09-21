@@ -7,40 +7,58 @@ import {Card} from "react-bootstrap";
 
 type Props = {
     title: string
+    cardsToShow: number
     cards: JSX.Element[]
 }
 
-function CardSlider({title, cards}: Props) {
+function CardSlider({title, cardsToShow, cards}: Props) {
+    if (cardsToShow < 1) {
+        cardsToShow = 1
+    }
+
+    let br = cardsToShow
+    let breaks = []
+    for (var i = 0; i < 2; i++) {
+        if (br < 1) {
+            breaks.push(1)
+        }
+        else {
+            br--
+            breaks.push(br)   
+        }
+    }
+    console.log(breaks)
+    console.log(cardsToShow)
+
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToShow: cardsToShow,
+        slidesToScroll: cardsToShow,
         initialSlide: 0,
         responsive: [
             {
                 breakpoint: 2000,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    infinite: false,
-                    dots: true
+                    slidesToShow: cardsToShow,
+                    slidesToScroll: cardsToShow,
+                    infinite: true,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: breaks[0],
+                    slidesToScroll: breaks[0],
                     infinite: true
                 }
             },
             {
                 breakpoint: 990,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: breaks[1],
+                    slidesToScroll: breaks[1],
                     infinite: true
                 }
             },
@@ -55,10 +73,15 @@ function CardSlider({title, cards}: Props) {
         ]
     };
 
+    let cardTitle;
+    if (title) {
+        cardTitle = <Card.Title className="text-monospace text-center m-3">{title}</Card.Title>
+    }
+
     return (
-        <Card className="pb-4">
-            <Card.Title className="text-monospace text-center m-3">{title}</Card.Title>
-            <Card.Body className="px-5 pt-0">
+        <Card>
+            {cardTitle}
+            <Card.Body className="px-5 pt-0 pb-4">
                 <Slider {...settings}>
                     {cards}
                 </Slider>

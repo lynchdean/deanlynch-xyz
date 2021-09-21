@@ -14,13 +14,12 @@ body {
     background-color: #2a9d8f !important;
 }
 
-.btn-block {
-    border-color: #8F2A9D !important;
-    color:  #8F2A9D !important;
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    box-shadow: none !important;
 }
 
 #tech-slider {
-    background-color: #E9C46A;
+    background-color: #e9c46a;
     color: #FFFFFF;
 }
 
@@ -35,17 +34,17 @@ body {
 }
 
 #work-exp {
-    background-color: #F4A261;
+    background-color: #f4a261;
     color: #FFFFFF;
 }
 
 #project-slider .card {
-    background-color: #EE8959;
+    background-color: #e76f51;
     color: #FFFFFF;
     margin-bottom: 2rem;
 }
 
-/* SLick carousel dot colour */
+/* Slick carousel dot colour */
 .slick-dots li button:before {
     color: #FFFFFF !important;
 }

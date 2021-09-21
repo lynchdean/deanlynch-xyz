@@ -9,6 +9,7 @@ function TechExp() {
         return (
             <CardSlider
                 title={title}
+                cardsToShow={5}
                 cards={data.map((card: any, index: number) => {
                         return (
                             <LogoCard key={index} title={card.title} img={card.image}/>
@@ -21,8 +22,8 @@ function TechExp() {
 
     return (
         <Card id="tech-slider" className=" p-0 mb-4">
-                {getSlider("Primary Technologies: ", data.primary)}
-                {getSlider("Secondary Technologies: ", data.secondary)}
+                {getSlider("Technologies: ", data.primary)}
+                {getSlider("", data.secondary)}
         </Card>
     )
 }

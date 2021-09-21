@@ -20,6 +20,7 @@ function Projects() {
         <div id="project-slider">
             <CardSlider
                 title="Projects: "
+                cardsToShow={3}
                 cards={projects}
             />
         </div>

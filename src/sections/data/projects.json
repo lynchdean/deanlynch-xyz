@@ -30,11 +30,30 @@
       ]
     },
     {
-      "title": "tic-tac-toe",
-      "link": "https://github.com/lynchdean/tic-tac-toe",
-      "desc": "Expanding upon the official React tic-tac-toe tutorial",
+      "title": "BWI Fingal Website",
+      "link": "https://github.com/lynchdean/birdwatch-fingal",
+      "desc": "Website for Bird Watch Ireland Fingal branch",
       "tech": [
-        "React"
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Ben and Jerry's Deals",
+      "link": "https://github.com/lynchdean/BenAndJerrys_Promos",
+      "desc": "Simple web scraper and page to let my girlfriend check when Ben and Jerry's is on offer",
+      "tech": [
+        "Python",
+        "Flask",
+        "BS4"
+      ]
+    },
+    {
+      "title": "Discord Secret Santa",
+      "link": "https://github.com/lynchdean/discord-secret-santa/",
+      "desc": "A Secret Santa bot for discord, with address entry and exclusions for each participant",
+      "tech": [
+        "Python"
       ]
     },
     {
@@ -44,6 +63,24 @@
       "tech": [
         "Python",
         "Selenium"
+      ]
+    },
+    {
+      "title": "ping-monitor",
+      "link": "https://github.com/lynchdean/ping-monitor",
+      "desc": "Twitter and webpage monitor using Discord as an interface",
+      "tech": [
+        "Python",
+        "Discord.py",
+        "Twitter API"
+      ]
+    },
+    {
+      "title": "tic-tac-toe",
+      "link": "https://github.com/lynchdean/tic-tac-toe",
+      "desc": "Expanding upon the official React tic-tac-toe tutorial",
+      "tech": [
+        "React"
       ]
     }
   ]
