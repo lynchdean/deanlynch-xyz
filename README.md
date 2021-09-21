@@ -1,6 +1,6 @@
 This is my own personal website built using **_React_** and **_TypeScript_**
 
-It's currently a **_WORK IN PROGRESS_**, and I will be adding new features to in over the coming weeks.
+I'm currently doing an overhaul of the design. If you're interested, you can have a look at the **v2 branch**.
 
 You can visit the live version over on **_[deanlynch.xyz](https://deanlynch.xyz/)_**
 
