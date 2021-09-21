@@ -9,7 +9,7 @@ import "./css/app.css";
 
 function App() {
   return (
-    <div>
+    <div className="bg-dark">
       <Topbar/>
       <About/>
       <Tech/>
