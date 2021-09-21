@@ -7,30 +7,41 @@ function About() {
   return (
     <div className="bg-primary">
       <div className="container p-4 mb-4">
-        <div className="row m-4 pb-4">
-          <div className="col-lg-8">
-            <div className="text-light">
-              <h1 className="display-4 pb-4">{data.heading}</h1>
-              {data.lines.map((line, index) => {
-                return (
-                  <p key={index} className="lead">
-                    {line}
-                  </p>
-                );
-              })}
+        {/*<div className="row m-4 pb-4">*/}
+        {/*  <div className="col-lg-8">*/}
+        <div className="text-light pb-5">
+          <div className="row">
+            <div className="col-md-10">
+              <h1 className="display-4">{data.heading}</h1>
+              <h2 className="display-5 pb-4">{data.subheading}</h2>
+            </div>
+            <div className="col-md-2">
+              <img
+                src={DLLogo}
+                className="img-fluid"
+                alt={"DL Logo"}
+                width={150}
+              />
             </div>
           </div>
-          <div className="col-lg-4">
-            <img
-              src={DLLogo}
-              className="img-fluid my-auto"
-              alt={"DL Logo"}
-            />
-          </div>
+
+          {data.lines.map((line, index) => {
+            return (
+              <p key={index} className="lead">
+                {line}
+              </p>
+            );
+          })}
         </div>
       </div>
+      {/*<div className="col-lg-4">*/}
+
+      {/*</div>*/}
     </div>
-  );
+// </div>
+// </div>
+  )
+
 }
 
 export default About;

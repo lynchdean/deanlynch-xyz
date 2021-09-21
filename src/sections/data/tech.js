@@ -17,7 +17,7 @@ const data = {
     },
     {
       title: "Other",
-      items: ["SQL", "Bash", "Linux", "Windows", "HTML/CSS"],
+      items: ["SQL", "Docker", "Bash", "Linux", "Windows", "HTML/CSS"],
       icon: "bi-braces"
     },
   ],

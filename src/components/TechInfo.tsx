@@ -9,7 +9,7 @@ interface Props {
 
 function TechInfo({title, items, icon}: Props) {
   return (
-    <div className="col d-flex align-items-start mb-3">
+    <div className="col-width col d-flex align-items-start mb-3">
       <i className={`bi ${icon} icon mx-3`}/>
       <div className="w-100">
         <h4>{title}:</h4>

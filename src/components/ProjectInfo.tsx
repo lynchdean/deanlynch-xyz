@@ -22,7 +22,8 @@ function ProjectInfo({title, desc, tech, link}: Props) {
         <i className="bi bi-github"/> Link
       </a>
     </div>
-  );
+  )
+
 }
 
 export default ProjectInfo;
