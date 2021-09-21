@@ -1,50 +1,8 @@
-body {
-    background-color: #264653 !important;
-}
+/*body {*/
+/*    background-color: #264653 !important;*/
+/*}*/
 
-.nav {
-    background-color: #264653 !important;
-}
+/*.nav {*/
+/*    background-color: #264653 !important;*/
+/*}*/
 
-.card {
-    border-radius: 10px !important;
-}
-
-.badge {
-    background-color: #2a9d8f !important;
-}
-
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    box-shadow: none !important;
-}
-
-#tech-slider {
-    background-color: #e9c46a;
-    color: #FFFFFF;
-}
-
-#tech-slider .card {
-    background-color: transparent !important;
-    border-color: transparent !important;
-}
-
-#tech-slider .card .card {
-    background-color: #FFF !important;
-    color: #212529 !important;
-}
-
-#work-exp {
-    background-color: #f4a261;
-    color: #FFFFFF;
-}
-
-#project-slider .card {
-    background-color: #e76f51;
-    color: #FFFFFF;
-    margin-bottom: 2rem;
-}
-
-/* Slick carousel dot colour */
-.slick-dots li button:before {
-    color: #FFFFFF !important;
-}

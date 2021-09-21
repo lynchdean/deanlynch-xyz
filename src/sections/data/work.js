@@ -1,7 +1,6 @@
 import anamLogo from "../img/anam-logo.png";
 import bplLogo from "../img/BPL.png";
 import lcLogo from "../img/Life-Cycle-ltd.png";
-import hibLogo from "../img/Hibernia.png";
 
 const data = {
   jobs: [
@@ -40,17 +39,6 @@ const data = {
         "Inventory Management (In/Out)",
         "Reorganised Warehouse for maximum efficiency",
         "Sales for promotional sporting events",
-      ],
-    },
-    {
-      company: "Hibernia Networks",
-      image: hibLogo,
-      position: "2 Week Internship",
-      duration: "July 2016",
-      details: [
-        "Built a fibre network with Add-drop Multiplexers",
-        "Built and troubleshooted a peer to peer fibre network with trunk and access ports",
-        "Observed the techniques used when looking for problems in a large fibre network",
       ],
     },
   ],

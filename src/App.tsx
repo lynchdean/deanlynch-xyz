@@ -1,26 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import Topbar from "./components/Topbar"
+import Topbar from "./components/Topbar";
 import About from "./sections/About";
+import Tech from "./sections/Tech";
+import Work from "./sections/Work";
 import Projects from "./sections/Projects";
-import TechExp from "./sections/TechExp";
-import "./css/app.css"
-import Container from "react-bootstrap/Container";
-import WorkExp from "./sections/WorkExp";
+import "./css/app.css";
 
 function App() {
-    return (
-        <div>
-            <Topbar/>
-            <Container>
-                <About/>
-                <TechExp/>
-                <WorkExp/>
-                <Projects/>
-            </Container>
-        </div>
-
-    );
+  return (
+    <div className="bg-dark">
+      <Topbar/>
+      <About/>
+      <Tech/>
+      <Work/>
+      <Projects/>
+    </div>
+  );
 }
 
 export default App;
