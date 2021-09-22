@@ -11,7 +11,7 @@ function Work() {
       <h2 className="pb-2 mb-4  border-bottom">Work Experience:</h2>
       <div className="row">
         <div className="col-sm-2">
-          <div className="list-group" id="list-tab" role="tablist">
+          <div className="list-group list-group flex-sm-column flex-row" id="list-tab" role="tablist">
             {data.jobs.map((job: any, index: number) => {
               return (
                 <a

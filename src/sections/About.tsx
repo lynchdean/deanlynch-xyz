@@ -8,19 +8,16 @@ function About() {
     <div className="bg-primary">
       <div className="container p-4 mb-4">
         <div className="text-light pb-5">
-          <div className="row">
-            <div className="col-md-10">
+          <div className="d-flex justify-content-between">
+            <div className="pt-3">
               <h1 className="display-4">{data.heading}</h1>
               <h2 className="display-5 pb-4">{data.subheading}</h2>
             </div>
-            <div className="col-md-2">
-              <img
-                src={DLLogo}
-                className="img-fluid"
-                alt={"DL Logo"}
-                width={150}
-              />
-            </div>
+            <img
+              src={DLLogo}
+              alt={"DL Logo"}
+              width={150}
+            />
           </div>
 
           {data.lines.map((line, index) => {
@@ -32,7 +29,6 @@ function About() {
           })}
         </div>
       </div>
-
     </div>
 
   )
